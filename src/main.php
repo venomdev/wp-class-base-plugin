@@ -25,6 +25,12 @@ class Main {
 			__NAMESPACE__ => self::path('include'),
 			'Vendor' => self::path('vendor')
 		]);
+
+		// Start the Admin controller
+		if(is_admin()) {
+
+			Admin::init();
+		}
 	}
 
 	/**
