@@ -1,0 +1,13 @@
+{
+    "name": "venomdev/wp-class-base-plugin",
+    "description": "A WordPress class based plugin template",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "venomDev",
+            "email": "venomdev@gmail.com"
+        }
+    ],
+    "require": {}
+}
